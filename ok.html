@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Page for Diya</title>
+  <style>
+    body {
+      background-color: #eebacf;
+      background-position: center;
+      font-family: Arial, sans-serif;
+    }
+    h1{
+      text-align: center;
+      color: white;
+    }
+    h2{
+        color: white;
+    }
+    li{
+         color: white;
+    }
+    pre {
+      font-size: 18px;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    
+    img {
+      display: block;
+      margin: 30px auto;
+      width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+    
+  </style>
+</head>
+<body>
+
+  <button onclick="document.getElementById('bgm').play()">Play Music 🎵</button>
+
+  <audio id="bgm">
+    <source src="cold_mess.mp3" type="audio/mpeg">
+  </audio>
+
+  <h1>For YOU</h1>
+
+  <pre>
+You have been really distant.
+I think ignoring everything's the best way but doesn’t seem like it's working.
+Nothing crazy special, but what I learned about pages and websites these past 3 days.
+  </pre>
+
+  <h2>3 things I HATE.</h2>
+  <ol>
+    <li>YOU</li>
+    <li>YOU</li>
+    <li>YOU</li>
+  </ol>
+
+  <h2>3 reasons WHY I can't leave</h2>
+  <ul>
+    <li>YOU</li>
+    <li>YOU</li>
+    <li>YOU</li>
+  </ul>
+
+  <img src="ok2.jpeg" alt="her">
+  <br>
+  <pre>
+    you truly are beautiful.
+  </pre>
+  <h2 style="text-align: center; color: white;">Send Me a Message 💌</h2>
+
+<form style="max-width: 400px; margin: 0 auto; text-align: left;">
+  <label for="name" style="color: white;">Your Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name"
+         style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 8px; border: none;"><br>
+
+  <label for="message" style="color: white;">Your Message:</label><br>
+  <textarea id="message" name="message" rows="5" placeholder="Write something..."
+            style="width: 100%; padding: 10px; border-radius: 8px; border: none;"></textarea><br>
+
+  <button type="submit"
+          style="margin-top: 10px; padding: 10px 20px; background-color: #ff88aa; color: white; border: none; border-radius: 12px; cursor: pointer;">
+    Send 💖
+  </button>
+</form>
+<h2 style="text-align: center; color: white; margin-top: 40px;">Some Memories 📅</h2>
+
+<table style="margin: 0 auto; border-collapse: collapse; width: 80%; max-width: 500px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  <tr style="background-color: #ffb6c1; color: white;">
+    <th style="padding: 12px;">Date</th>
+    <th style="padding: 12px;">Moment</th>
+  </tr>
+  <tr style="background-color: #fff0f5; color: #444;">
+    <td style="padding: 10px;">04-01-2025</td>
+    <td style="padding: 10px;">?</td>
+  </tr>
+  <tr style="background-color: #ffe4ec; color: #444;">
+    <td style="padding: 10px;">28-03-2025</td>
+    <td style="padding: 10px;">?</td>
+  </tr>
+  <tr style="background-color: #fff0f5; color: #444;">
+    <td style="padding: 10px;">02-02-2024</td>
+    <td style="padding: 10px;">?</td>
+  </tr>
+</table>
+
+</body>
+</html>
